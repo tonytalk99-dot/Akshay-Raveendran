@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "project": "3D Curved Scroll Experience",
+    "sourceDirectory": "/reference",
+    "analysisTimestamp": "2026-11-06T19:44:00-08:00",
+    "inputInspection": {
+      "mediaFilesDetected": 0,
+      "videoFramesSampled": 0,
+      "status": "Directory /reference contained no video recordings or screenshot assets at time of analysis",
+      "strictMode": "Distinguishing observed values from estimates. No unsupported visual details fabricated."
+    }
+  },
+  "observations": {
+    "mediaAssets": [],
+    "extractedColors": [],
+    "sampledKeyframes": [],
+    "confirmedFonts": []
+  },
+  "estimates": {
+    "layout": {
+      "containerMaxWidthPx": 1440,
+      "gridColumns": 12,
+      "padding": {
+        "mobilePx": 24,
+        "tabletPx": 48,
+        "desktopPx": 80
+      },
+      "header": {
+        "heightPx": 72,
+        "position": "fixed",
+        "backdropBlurPx": 12
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "display": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+        "mono": "'JetBrains Mono', 'Fira Code', monospace"
+      },
+      "scale": {
+        "display": {
+          "fontSizePx": 64,
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.02em",
+          "fontWeight": 800
+        },
+        "h1": {
+          "fontSizePx": 44,
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.015em",
+          "fontWeight": 700
+        },
+        "h2": {
+          "fontSizePx": 30,
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.01em",
+          "fontWeight": 600
+        },
+        "bodyLarge": {
+          "fontSizePx": 18,
+          "lineHeight": 1.5,
+          "fontWeight": 400
+        },
+        "bodyRegular": {
+          "fontSizePx": 16,
+          "lineHeight": 1.6,
+          "fontWeight": 400
+        },
+        "caption": {
+          "fontSizePx": 12,
+          "lineHeight": 1.4,
+          "letterSpacing": "0.05em",
+          "textTransform": "uppercase",
+          "fontWeight": 500
+        }
+      }
+    },
+    "spacing": {
+      "unitPx": 4,
+      "scalePx": [0, 4, 8, 12, 16, 24, 32, 48, 64, 80, 120],
+      "borderRadiusPx": {
+        "sm": 8,
+        "md": 12,
+        "lg": 16,
+        "xl": 24,
+        "full": 9999
+      }
+    },
+    "colors": {
+      "background": {
+        "base": "#0a0a0c",
+        "surface1": "rgba(255, 255, 255, 0.04)",
+        "surface2": "rgba(255, 255, 255, 0.08)"
+      },
+      "border": {
+        "subtle": "rgba(255, 255, 255, 0.08)",
+        "prominent": "rgba(255, 255, 255, 0.16)"
+      },
+      "text": {
+        "primary": "#f4f4f6",
+        "secondary": "#a1a1aa",
+        "tertiary": "#71717a"
+      },
+      "accent": {
+        "primary": "#06b6d4",
+        "secondary": "#8b5cf6",
+        "glow": "rgba(6, 182, 212, 0.35)"
+      }
+    },
+    "threeDGeometry": {
+      "camera": {
+        "type": "PerspectiveCamera",
+        "fov": 50,
+        "near": 0.1,
+        "far": 1000,
+        "initialPosition": [0, 0, 6]
+      },
+      "lighting": {
+        "ambientIntensity": 0.4,
+        "directionalLight": {
+          "position": [5, 8, 5],
+          "intensity": 1.2
+        },
+        "accentLight": {
+          "position": [-4, -2, -3],
+          "color": "#06b6d4",
+          "intensity": 0.8
+        }
+      }
+    },
+    "curvedScrollTrajectory": {
+      "splineType": "CatmullRomCurve3",
+      "closed": false,
+      "tension": 0.5,
+      "virtualScrollHeightVh": 500,
+      "dampingLerp": 0.06,
+      "waypoints": [
+        {
+          "progress": 0.0,
+          "position": [0, 0, 6],
+          "lookAt": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "progress": 0.3,
+          "position": [2.2, 0.8, 3.5],
+          "lookAt": [0.5, 0, 0],
+          "rotation": [-0.15, 0.4, 0.05]
+        },
+        {
+          "progress": 0.6,
+          "position": [-1.8, -0.6, 2.0],
+          "lookAt": [-0.3, 0, 0],
+          "rotation": [0.12, -0.35, -0.08]
+        },
+        {
+          "progress": 1.0,
+          "position": [0, 0.5, 1.2],
+          "lookAt": [0, 0.2, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "depthAndLayering": {
+      "canvasZIndex": 0,
+      "contentZIndex": 10,
+      "overlayHUDZIndex": 20
+    },
+    "rotationAndParallax": {
+      "mouseParallaxMaxRadians": 0.15,
+      "curveBankingFactor": 0.25
+    },
+    "transitions": {
+      "scrollEasing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "elementFadeDurationMs": 350,
+      "staggerDelayMs": 80
+    },
+    "responsive": {
+      "breakpoints": {
+        "mobileMaxWidth": 767,
+        "tabletMaxWidth": 1023,
+        "desktopMinWidth": 1024
+      },
+      "mobileAdjustments": {
+        "cameraFov": 65,
+        "curveAmplitudeScaleX": 0.5,
+        "containerPaddingPx": 20
+      }
+    }
+  }
+}
