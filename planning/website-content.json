@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "archive": {
+    "brandName": "AURA ARCHIVE",
+    "tagline": "Rare Collectible Art Discs & Spatial Editions",
+    "curator": "Atelier Spatial Arts",
+    "foundedYear": 2024,
+    "disclaimer": "All commerce metrics, edition runs, serial tokens, and pricing are fictional artistic narratives created for experiential fidelity."
+  },
+  "navigation": {
+    "brandLogo": "AURA",
+    "categories": [
+      { "id": "all", "label": "All Editions", "active": true },
+      { "id": "surreal", "label": "Surrealism", "active": false },
+      { "id": "gothic", "label": "Dark Fantasy", "active": false }
+    ],
+    "indexLabel": "Index",
+    "itemCount": 6
+  },
+  "artworks": [
+    {
+      "id": "aura-01",
+      "index": 1,
+      "indexFormatted": "01",
+      "title": "NOT OUT OF THIS SPACE",
+      "artist": "Shakib Siddiqui",
+      "creatorStudio": "Desigenr Collective",
+      "year": 2025,
+      "category": "surreal",
+      "artworkPath": "/assets/1.webp",
+      "edition": "1 of 25",
+      "medium": "12-Inch Brushed Aluminum Composite Disc with Holographic Clear Hub",
+      "dimensions": "300mm × 300mm × 1.8mm",
+      "weight": "240g",
+      "tagline": "A melancholic retro-futurist meditation on destination, patience, and persistence.",
+      "curatorialStatement": "A classic orange transit bus hovers in suspension over cloud banks above rolling Alpine meadows, while an astronaut looks toward distant horizons from a suspended wooden ladder. The piece subverts cinematic sci-fi grandeur into an intimate contemplation of human endeavor.",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 520,
+        "priceEth": 0.18,
+        "editionTotal": 25,
+        "editionAvailable": 7,
+        "status": "Available For Archive Acquisition",
+        "certificateId": "AURA-2025-N01-77B",
+        "smartContract": "0x7F26c8...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "ARTFORUM",
+          "quote": "A TRANSCENDENT MEDITATION ON GRAVITY AND PURPOSE"
+        },
+        {
+          "source": "THE DISCERNER",
+          "rating": 5,
+          "quote": "VISUAL POETRY THAT LINGERS LONG AFTER THE DISC TURNS"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    },
+    {
+      "id": "aura-02",
+      "index": 2,
+      "indexFormatted": "02",
+      "title": "ABYSSAL METROPOLIS",
+      "artist": "Atelier Submersion",
+      "creatorStudio": "Marine Dreamscapes Lab",
+      "year": 2025,
+      "category": "surreal",
+      "artworkPath": "/assets/2.webp",
+      "edition": "1 of 30",
+      "medium": "Diamond-Turned Optical Polycarbonate Disc with Cyan Chrome Rim",
+      "dimensions": "300mm × 300mm × 1.8mm",
+      "weight": "235g",
+      "tagline": "The silent reclamation of human megaliths by ancient pelagic leviathans.",
+      "curatorialStatement": "Submerged skyscrapers stand as modern ocean spires beneath shafts of bioluminescent sunlight. Humpback whales and circling sharks glide through deep street canyons, presenting a serene, majestic post-human ecology.",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 580,
+        "priceEth": 0.20,
+        "editionTotal": 30,
+        "editionAvailable": 11,
+        "status": "Available For Archive Acquisition",
+        "certificateId": "AURA-2025-N02-44C",
+        "smartContract": "0x3A91b4...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "ARCHITECTURAL REVIEW",
+          "quote": "SPECTACULAR SPATIAL VERTIGO BENEATH THE OCEAN SURFACE"
+        },
+        {
+          "source": "CINEMA SCOPE",
+          "rating": 5,
+          "quote": "AN AWE-INSPIRING HYMN TO ECOLOGICAL RESURGENCE"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    },
+    {
+      "id": "aura-03",
+      "index": 3,
+      "indexFormatted": "03",
+      "title": "ANNECY ILLUSION",
+      "artist": "Dreamina Collective",
+      "creatorStudio": "Animation Laureates Guild",
+      "year": 2024,
+      "category": "surreal",
+      "artworkPath": "/assets/3.webp",
+      "edition": "1 of 15",
+      "medium": "Multi-Layer UV Silkscreen on Textured Archival Polycarbonate",
+      "dimensions": "300mm × 300mm × 1.8mm",
+      "weight": "245g",
+      "tagline": "The colossal subconscious peering over the pastures of nascent creation.",
+      "curatorialStatement": "Created in tribute to the Annecy International Animation Summit, this composition depicts a titan-sized child gazing over rolling grasslands dotted with Moai statues and floating stone hands, capturing the wonder of unconstrained imagination.",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 650,
+        "priceEth": 0.22,
+        "editionTotal": 15,
+        "editionAvailable": 3,
+        "status": "Rare Archival Reserve",
+        "certificateId": "AURA-2024-N03-99A",
+        "smartContract": "0x89D0e1...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "CAHIERS DU CINÉMA",
+          "quote": "AUDACIOUS, KALEIDOSCOPIC, AND GENUINELY VISIONARY"
+        },
+        {
+          "source": "VARIETY",
+          "rating": 5,
+          "quote": "A LANDMARK ACHIEVEMENT IN SURREALIST GRAPHIC STAGING"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    },
+    {
+      "id": "aura-04",
+      "index": 4,
+      "indexFormatted": "04",
+      "title": "STRENGTH IN EMPATHY",
+      "artist": "Iron & Compass Guild",
+      "creatorStudio": "Chivalric Press",
+      "year": 2025,
+      "category": "gothic",
+      "artworkPath": "/assets/4.webp",
+      "edition": "1 of 50",
+      "medium": "Matte Obsidian Disc with Phosphorescent Emerald Linework",
+      "dimensions": "300mm × 300mm × 1.8mm",
+      "weight": "250g",
+      "tagline": "Chivalric fortitude redefined through compassion over brute domination.",
+      "curatorialStatement": "An armored knight in medieval helmet and fur mantle cradles a fragile sparrow on his gauntleted hand. The inscription reminds the observer: 'It takes strength and character to use your time and efforts for the betterment of others.'",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 460,
+        "priceEth": 0.16,
+        "editionTotal": 50,
+        "editionAvailable": 19,
+        "status": "Available For Archive Acquisition",
+        "certificateId": "AURA-2025-N04-12E",
+        "smartContract": "0x44B8a9...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "THE GUARDIAN",
+          "quote": "BRUTALIST CHIVALRY INFUSED WITH UNEXPECTED MORAL TENDERNESS"
+        },
+        {
+          "source": "KINESIS JOURNAL",
+          "rating": 5,
+          "quote": "THE MOST URGENT GRAPHIC ARTIFACT OF THE SEASON"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    },
+    {
+      "id": "aura-05",
+      "index": 5,
+      "indexFormatted": "05",
+      "title": "FORLORN : RODERIKA",
+      "artist": "High Cathedral Foundry",
+      "creatorStudio": "Sanctuary Workshop",
+      "year": 2025,
+      "category": "gothic",
+      "artworkPath": "/assets/5.webp",
+      "edition": "1 of 20",
+      "medium": "Cold-Rolled Steel Alloy with Black Nickel Plate & Gold Filigree",
+      "dimensions": "300mm × 300mm × 2.0mm",
+      "weight": "320g",
+      "tagline": "Sanctuary of the Spirit Tuner behind silver filigree and consecrated mourning.",
+      "curatorialStatement": "A veiled gothic queen wears a filigree crown forged from sacred brambles and gold. Surrounding her figure are precision typography schematics, HUD telemetry rings, and heraldic battle-axe emblems, uniting high fantasy with cryptic technological formalism.",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 720,
+        "priceEth": 0.25,
+        "editionTotal": 20,
+        "editionAvailable": 4,
+        "status": "Masterwork Archival Vault",
+        "certificateId": "AURA-2025-N05-88M",
+        "smartContract": "0x11E5cc...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "SLASHFILM",
+          "quote": "BREATHTAKING DARK MAJESTY WITH FLAWLESS TEXTURAL DEPTH"
+        },
+        {
+          "source": "ROLLING STONE",
+          "rating": 5,
+          "quote": "HAUNTING, SACRED, AND THOROUGHLY MESMERIZING"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    },
+    {
+      "id": "aura-06",
+      "index": 6,
+      "indexFormatted": "06",
+      "title": "WHERE THE ADVENTURE ENDS",
+      "artist": "The Gilded Mirror Guild",
+      "creatorStudio": "Realities Archive",
+      "year": 2026,
+      "category": "surreal",
+      "artworkPath": "/assets/6.webp",
+      "edition": "1 of 25",
+      "medium": "Gilded Rococo Beveled Disc with Shattered Specular Inlay",
+      "dimensions": "300mm × 300mm × 1.8mm",
+      "weight": "240g",
+      "tagline": "A reflection of realities fractured across the golden threshold of memory.",
+      "curatorialStatement": "An ornate baroque mirror frame surrounds glass shards that reveal a misty fairytale village nestled among ancient hills. A profound meditation on the boundary between the observer and the mythic realm.",
+      "fictionalCommerce": {
+        "isFictional": true,
+        "priceUsd": 590,
+        "priceEth": 0.21,
+        "editionTotal": 25,
+        "editionAvailable": 8,
+        "status": "Available For Archive Acquisition",
+        "certificateId": "AURA-2026-N06-33D",
+        "smartContract": "0x98F2aa...FictionalNFTProvenance"
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "source": "LOS ANGELES TIMES",
+          "quote": "A SPELLBINDING EXPLORATION OF MEMORY, MYTH, AND FRACTURE"
+        },
+        {
+          "source": "THE TIMES",
+          "rating": 5,
+          "quote": "UNCOMPROMISING ELEGANCE AND NARRATIVE VIRTUOSITY"
+        }
+      ],
+      "actions": {
+        "primaryCta": "Acquire Collectible Disc",
+        "secondaryCta": "Inspect Physical Specs"
+      }
+    }
+  ]
+}
